@@ -1,0 +1,9 @@
+pluginManagement {
+	repositories {
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'demo-multi-module'
+
+include 'lib'
+include 'app'
